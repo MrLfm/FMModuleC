@@ -7,8 +7,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'FMModuleC_Example' do
-  pod 'FMModuleC', :path => '../'
-  pod 'FMModuleCenter', :path => '../../FMModuleCenter'
+  pod 'FMModuleC'
 
   target 'FMModuleC_Tests' do
     inherit! :search_paths
