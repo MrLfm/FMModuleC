@@ -1,0 +1,6 @@
+framework module FMModuleC {
+  umbrella header "FMModuleC-umbrella.h"
+
+  export *
+  module * { export * }
+}

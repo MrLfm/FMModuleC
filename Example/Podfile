@@ -1,0 +1,18 @@
+
+# 我们创建的索引库
+source 'https://github.com/MrLfm/FMModuleLibrary'
+
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'FMModuleC_Example' do
+  pod 'FMModuleC', :path => '../'
+  pod 'FMModuleCenter', :path => '../../FMModuleCenter'
+
+  target 'FMModuleC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,26 @@
+{
+  "name": "FMModuleC",
+  "version": "0.0.1",
+  "summary": "A short description of FMModuleC.",
+  "homepage": "https://github.com/MrLfm/FMModuleC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLfm": "lfm_1992@126.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLfm/FMModuleC.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "17.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "FMModuleC/Classes/**/*",
+  "dependencies": {
+    "FMModuleCenter": []
+  },
+  "swift_version": "5.0"
+}

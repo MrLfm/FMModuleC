@@ -1,0 +1,23 @@
+{
+  "name": "FMModuleCenter",
+  "version": "0.0.1",
+  "summary": "组件中心。提供组件注册功能，声明所有组件提供的服务，供组件间调用。",
+  "homepage": "https://github.com/MrLfm/FMModuleCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLfm": "lfm_1992@126.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLfm/FMModuleCenter.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "FMModuleCenter/Classes/**/*",
+  "swift_version": "5.0"
+}

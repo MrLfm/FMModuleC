@@ -1,0 +1,6 @@
+framework module Pods_FMModuleC_Tests {
+  umbrella header "Pods-FMModuleC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

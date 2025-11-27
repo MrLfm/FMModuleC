@@ -1,0 +1,22 @@
+PODS:
+  - FMModuleC (0.0.1):
+    - FMModuleCenter
+  - FMModuleCenter (0.0.1)
+
+DEPENDENCIES:
+  - FMModuleC (from `../`)
+  - FMModuleCenter (from `../../FMModuleCenter`)
+
+EXTERNAL SOURCES:
+  FMModuleC:
+    :path: "../"
+  FMModuleCenter:
+    :path: "../../FMModuleCenter"
+
+SPEC CHECKSUMS:
+  FMModuleC: c876324acc5c6d1b0349bc023dbcca95b6e01c4d
+  FMModuleCenter: 8dee97584eb5ec95a9d79a38d62d19f8f324d45f
+
+PODFILE CHECKSUM: d17c6385e7f27d6c000229069aa066d70bb78ce7
+
+COCOAPODS: 1.16.2
